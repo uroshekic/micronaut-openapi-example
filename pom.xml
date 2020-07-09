@@ -189,6 +189,7 @@
               <annotationProcessorArgs>
                 <annotationProcessorArg>micronaut.processing.group=com.example</annotationProcessorArg>
                 <annotationProcessorArg>micronaut.processing.module=demo</annotationProcessorArg>
+                <annotationProcessorArg>micronaut.openapi.views.spec=rapidoc.enabled=true,swagger-ui.enabled=true,swagger-ui.theme=flattop</annotationProcessorArg>
               </annotationProcessorArgs>
             </configuration>
           </execution>
