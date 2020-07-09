@@ -77,6 +77,10 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>io.swagger.core.v3</groupId>
+      <artifactId>swagger-annotations</artifactId>
+    </dependency>
+    <dependency>
       <groupId>javax.annotation</groupId>
       <artifactId>javax.annotation-api</artifactId>
       <scope>compile</scope>
@@ -176,6 +180,11 @@
                   <artifactId>micronaut-validation</artifactId>
                   <version>${micronaut.version}</version>
                 </annotationProcessorPath>
+                <path>
+                  <groupId>io.micronaut.configuration</groupId>
+                  <artifactId>micronaut-openapi</artifactId>
+                  <version>1.5.2</version>
+                </path>
               </annotationProcessorPaths>
               <annotationProcessorArgs>
                 <annotationProcessorArg>micronaut.processing.group=com.example</annotationProcessorArg>
